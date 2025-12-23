@@ -1,0 +1,67 @@
+# AI Image Authenticity Checker - Dependencies
+# Python 3.9+ required
+
+# Core Scientific Computing
+numpy>=1.21.0,<2.0.0
+scipy>=1.9.0
+pandas>=1.5.0
+
+# Image Processing
+opencv-python>=4.7.0
+Pillow>=9.0.0
+scikit-image>=0.20.0
+
+# Machine Learning - Classical
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+optuna>=3.1.0
+
+# Deep Learning
+# ============================================
+# For optimal GPU performance with RTX 3060, install PyTorch with CUDA:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# Or for CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# ============================================
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0  # PyTorch Image Models (EfficientNet, etc.)
+
+# Data Handling
+datasets>=2.12.0  # Hugging Face datasets
+huggingface-hub>=0.14.0
+
+# API & Web
+fastapi>=0.95.0
+uvicorn>=0.21.0
+python-multipart>=0.0.6
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Explainability
+shap>=0.41.0
+captum>=0.6.0  # PyTorch interpretability
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+joblib>=1.2.0
+requests>=2.28.0
+
+# Logging & Monitoring
+tensorboard>=2.12.0
+wandb>=0.15.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.0.0
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+nbformat>=5.8.0

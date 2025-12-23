@@ -1,8 +1,28 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 .venv/
+venv/
+ENV/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -13,3 +33,29 @@ Thumbs.db
 
 # IDE
 .idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files (too large for git)
+data/train/
+data/valid/
+data/test/
+data/real/
+data/fake/
+data/processed/
+
+# Model files (too large for git)
+saved_models/*.pt
+saved_models/*.pth
+saved_models/*.joblib
+saved_models/checkpoints/
+
+# Outputs
+outputs/logs/
+outputs/results/
+*.log
+
+# Environment
+.env
+.env.local
